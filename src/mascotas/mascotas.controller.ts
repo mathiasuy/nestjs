@@ -1,5 +1,6 @@
 import { Controller, Post, Body, Get, Delete } from '@nestjs/common';
 import { CreateMascotaDto } from './dto/create-mascota-dto';
+import { UpdateMascotaDto } from './dto/update-mascota-dto';
 
 @Controller('mascotas')
 export class MascotasController {
@@ -12,7 +13,7 @@ export class MascotasController {
     }
 
     @Get(':id')
-    getAll (@Body() updateMascotaDTO : UpdatemascotaDTO){
+    getAll (@Body() updateMascotaDTO : UpdateMascotaDto){
         return "Mascota actualizada";
     }
 
