@@ -4,7 +4,9 @@
   "jsRules": {
     "no-unused-expression": true
   },
+  
   "rules": {
+    "__comment": "En esta parte se definen reglas de estructuracion de generacion de codigo fuente por parte del usuario para el proyecto",
     "quotemark": [true, "single"],
     "member-access": [false],
     "ordered-imports": [false],
